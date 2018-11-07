@@ -15,7 +15,7 @@
     <input type="text" placeholder="Filter your to-dos">
       <ol>
         <li ng-repeat="Carly in $ctrl.tasks" ng-class="{'completed': Carly.completed === true}">
-          <button ng-if="Carly.completed === false}">Complete</button>
+          <button ng-if="Carly.completed === false">Complete</button>
           <p>{{ Carly.task }}</p>
           <p class="X">X</p>
         </li>
